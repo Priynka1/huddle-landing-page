@@ -175,10 +175,7 @@ p {
   gap: 0.5em;
   top: -1.5em;
   right: 4em;
-}
-#icon-div:hover{
-  color:hsl(300, 69%, 71%);
-}
+} 
 @media screen and (max-width:431px){
   #image-content-div {
     flex-direction: column;
