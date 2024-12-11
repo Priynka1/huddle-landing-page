@@ -98,7 +98,6 @@ body {
 #content-div {
   width: 45%;
   padding: 1.6em;
-
 }
 
 h1 {
@@ -106,11 +105,9 @@ h1 {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
   color: white;
   font-size: 2em;
-
 }
 
 p {
@@ -119,11 +116,9 @@ p {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
   font-size: 1em;
   color: white;
-
 }
 
 .button {
@@ -136,53 +131,44 @@ p {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
   font-size: 0.8em;
   color: hsl(257, 40%, 49%);
 }
-.button:hover{
+.button:hover {
   background-color: hsl(300, 69%, 71%);
-  color:white ;
-}
-
-#icon {
-  border: 1px solid white;
-  border-radius: 50px;
-  padding: 0.5em;
-}
-
-#icon-two {
-  border: 1px solid white;
-  border-radius: 50px;
-  padding: 0.5em;
-  margin-left: 0.4em;
-}
-
-#icon-three {
-  border: 1px solid white;
-  border-radius: 50px;
-  padding: 0.5em;
-  margin-left: 0.4em;
-
+  color: white;
 }
 
 #icon-div {
-  position: relative;
+  width: 10%;
   color: white;
+  position: relative;
   display: flex;
   justify-content: end;
+  justify-content: space-between;
   gap: 0.5em;
   top: -1.5em;
-  right: 4em;
-} 
-@media screen and (max-width:431px){
+  margin-left: 83%;
+ 
+}
+.icon-div1 {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 0.5em;
+}
+.icon-div1:hover {
+  border-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+}
+
+@media screen and (max-width: 431px) {
   #image-content-div {
     flex-direction: column;
     width: 100%;
     padding: 1.5em;
     text-align: center;
-   
   }
   #image-div {
     width: 100%;
@@ -190,37 +176,34 @@ p {
 
   #content-div {
     width: 100%;
-    padding: 0em;
+    padding: 1em;
   }
   #logo {
-    width: 40%;
+    width: 30%;
     left: 1.5em;
     margin-top: 1em;
   }
-  h1{
-    font-size: 2em;
+  h1 {
+    font-size: 1.6em;
     margin-top: 1.5em;
   }
-  .button{
+  .button {
     width: 60%;
     font-size: 0.9em;
-  margin-top: 2em;
+    margin-top: 2em;
   }
-  #icon-div{
-  margin-right: 6em;
-  top: -2.5em;
+  #icon-div {
+   margin-left: 36%;
+   top: -2em;
   }
-  
 }
 
-
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   #image-content-div {
     flex-direction: column;
     width: 100%;
     padding: 1.5em;
     text-align: center;
-   
   }
   #image-div {
     width: 100%;
@@ -234,18 +217,17 @@ p {
     width: 40%;
     left: 1.5em;
   }
-  h1{
+  h1 {
     font-size: 1.5em;
     margin-top: 1.5em;
   }
-  .button{
+  .button {
     width: 60%;
     font-size: 0.9em;
-  margin-top: 2em;
+    margin-top: 2em;
   }
-  #icon-div{
-    right: 1.6em;
-  top: -2.5em;
+  #icon-div {
+    margin-left: 35%;
+   top: -2em;
   }
-
 }
